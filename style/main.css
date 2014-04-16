@@ -129,7 +129,7 @@ strong.important {
 
 hr {
   border: none;
-  border-bottom: 1px solid #fbb8cc;
+  border-bottom: 1px solid #f64d77;
   margin-top: 20px;
   margin-bottom: 30px; }
 
@@ -335,6 +335,7 @@ hr {
     z-index: 10;
     font-size: 55px; }
     .tile .tile-inner img {
+      border-radius: 3px;
       width: 100%;
       height: 100%; }
   .tile.tile-2 .tile-inner {
@@ -794,6 +795,7 @@ hr {
   border-radius: 3px;
   background: rgba(255, 255, 255, 0.35); }
   .legend-cell img {
+    border-radius: 3px;
     width: 100%;
     height: 100%; }
 
@@ -802,52 +804,52 @@ hr {
   box-shadow: 0 0 30px 5px rgba(0, 0, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
 
 .cell-4 {
-  background: #eeeaf1;
+  background: white;
   box-shadow: 0 0 30px 5px rgba(0, 0, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
 
 .cell-8 {
   color: white;
-  background: #ddd5e3;
+  background: white;
   box-shadow: 0 0 30px 5px rgba(0, 0, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
 
 .cell-16 {
   color: white;
-  background: #ccc0d5;
+  background: white;
   box-shadow: 0 0 30px 5px rgba(0, 0, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
 
 .cell-32 {
   color: white;
-  background: #bcabc7;
+  background: white;
   box-shadow: 0 0 30px 5px rgba(0, 0, 255, 0.07937), inset 0 0 0 1px rgba(255, 255, 255, 0.04762); }
 
 .cell-64 {
   color: white;
-  background: #ab96b9;
+  background: white;
   box-shadow: 0 0 30px 5px rgba(0, 0, 255, 0.15873), inset 0 0 0 1px rgba(255, 255, 255, 0.09524); }
 
 .cell-128 {
   color: white;
-  background: #9a81ab;
+  background: white;
   box-shadow: 0 0 30px 5px rgba(0, 0, 255, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286); }
 
 .cell-256 {
   color: white;
-  background: #8a6c9d;
+  background: white;
   box-shadow: 0 0 30px 5px rgba(0, 0, 255, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048); }
 
 .cell-512 {
   color: white;
-  background: #79578f;
+  background: white;
   box-shadow: 0 0 30px 5px rgba(0, 0, 255, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381); }
 
 .cell-1024 {
   color: white;
-  background: #684281;
+  background: white;
   box-shadow: 0 0 30px 5px rgba(0, 0, 255, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571); }
 
 .cell-2048 {
   color: white;
-  background: #582e74;
+  background: white;
   box-shadow: 0 0 30px 5px rgba(0, 0, 255, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
 
 .repo-link {
