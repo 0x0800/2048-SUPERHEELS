@@ -539,13 +539,18 @@ hr {
 
   body {
     margin: 20px 0;
-    padding: 0 20px; }
+    padding: 0 20px;
+    background-size: 50%; }
 
   h1.title {
     font-size: 27px;
     margin-top: 15px; }
     h1.title small {
       font-size: 27px; }
+
+  .title-container {
+    display: block;
+  }
 
   .container {
     width: 280px;
@@ -586,7 +591,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #f67098;
+    background: #f1124e;
     border-radius: 6px;
     width: 280px;
     height: 280px;
